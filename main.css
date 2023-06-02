@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 70px;
+  color: #EB2929;
+
+}
+.size{
+  font-size: 35px;
+}
+
+
+.header-section {
+  background-image: linear-gradient(transparent, #4F0707),
+  url(./imgaesz/mainimg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.image {
+  width: 160px;
+  height: 160px;
+}
+.margin{
+  margin-left: 70px;
+}
+
+
+.menu {
+  width: 360px;
+  height: 160px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0.95px 3.95px 5.6px;
+}
+.menu-card{
+  color: #192F60;
+}
+.menu-text{
+  color: #8C96AB;
+}
+.main-title{
+color: #192F60;
+}
+.sub-title{
+color: #8C96AB;
+}
+
+.mob-width select{
+  --bs-form-select-bg-img: none;
+}
+.icon{
+  position:relative;
+}
+.icon img{
+  position: absolute;
+  top: 16px;
+  left: 10px;
+
+}
+/*Mobile responsive */
+@media(max-width:575px){
+.mob-width{
+  width: 90%!important;
+  margin-bottom: 29px;
+  padding: 10px;
+}
+}
